@@ -1,9 +1,9 @@
 import { easeInOut, motion } from 'framer-motion'
 import { BiLogoPostgresql } from 'react-icons/bi'
-import { DiRedis } from 'react-icons/di'
+import { DiGit, DiPython, DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
-import { RiReactjsLine } from 'react-icons/ri'
-import { SiMongodb } from 'react-icons/si'
+import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
+import { SiExpress, SiMongodb } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 
 // Corrected iconVariants function
@@ -60,14 +60,7 @@ const Technologies = () => {
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
 
-        <motion.div
-          variants={iconVariants(3.2)}
-          initial="initial"
-          animate="animate"
-          className="p-4"
-        >
-          <DiRedis className="text-7xl text-red-700" />
-        </motion.div>
+        
 
         <motion.div
           variants={iconVariants(6)}
@@ -86,6 +79,28 @@ const Technologies = () => {
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
         </motion.div>
+      </div>
+      <div className="flex flex-wrap items-center justify-center gap-4">
+         <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
+          <DiPython className="text-7xl text-blue-500" />
+        </motion.div>
+
+         <motion.div variants={iconVariants(3.0)} initial="initial" animate="animate" className="p-4">
+          <img src="../public/postman.png" alt="Postman" className="w-16 h-16 rounded-4xl" />
+        </motion.div>
+
+        <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
+          <DiGit className="text-7xl text-red-700" />
+        </motion.div>
+
+        <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
+          <RiTailwindCssFill className="text-7xl text-cyan-700" />
+        </motion.div>
+
+        <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
+          <SiExpress className="text-7xl text-green-700" />
+        </motion.div>
+
       </div>
     </div>
   )

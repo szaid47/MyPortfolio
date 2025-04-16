@@ -44,6 +44,33 @@ const Experience = () => {
                 </div>
             ))}
         </div>
+    <div className="mt-16">
+            <motion.h3
+            whileInView={{opacity:1, y:0}}
+            initial={{opacity:0, y:-100}}
+            transition={{duration:1.5}}
+            className="text-center text-3xl mb-8">Work Gallery</motion.h3>
+            <div className="pt-10 flex flex-wrap justify-center gap-30">
+                {/* Example images */}
+                <motion.div
+                whileInView={{opacity:1, scale: 1.05}}
+                initial={{opacity:0, scale:0.95}}
+                transition={{duration:1}}
+                className="w-1/4">
+                    <img src="../public/flipkart.jpg" alt="Project 1" className="rounded-lg shadow-lg"/>
+                     <p className="mt-2 text-center text-sm text-stone-500">At Flipkart Warehouse</p>
+                </motion.div>
+                <motion.div
+                whileInView={{opacity:1, scale: 1.05}}
+                initial={{opacity:0, scale:0.95}}
+                transition={{duration:1}}
+                className="w-1/4">
+                    <img src="../public/ieee.png" alt="Project 2" className="rounded-lg shadow-lg"/>
+                     <p className="mt-2 text-center text-sm text-stone-500">IEEE Quiz</p>
+                </motion.div>
+                
+            </div>
+        </div>
     </div>
   )
 }

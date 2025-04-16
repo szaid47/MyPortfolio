@@ -1,76 +1,70 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import { link } from "framer-motion/client";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hey, I’m Syed Zaheed — great to e-meet you! I’m a full stack developer and a computer science enthusiast who loves building cool and meaningful projects. I'm especially passionate about creating web apps using React and Next.js, whipping up data tools with Streamlit, and diving into CNN-based AI projects whenever I get the chance.
+Hackathons are my go-to space for learning, building, and connecting with like-minded techies. When I’m not coding, you’ll probably find me watching anime, exploring business case studies, or geeking out over the latest phone and laptop launches. Let’s connect — my socials are just above! `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Feb 2025 - Mar 2025",
+    role: "Data Analyst",
+    company: "Infosys SpringBoard",
+    description: `Worked on a project to analyze and visualize data using Python and Streamlit. Developed interactive dashboards to present insights and trends. Collaborated with a team to gather requirements and deliver a comprehensive data analysis solution.`,
+    technologies: ["Python", "Streamlit", "PowerBi", "Ollama4"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
+  year: "Sep 2024 - Oct 2024",
+  role: "Data Entry Operator",
+  company: "Flipkart",
+  description: `Performed data entry and validation tasks to ensure accurate inventory and order processing. Worked with internal logistics tools to manage product details, barcodes, and shipment data. Collaborated with the warehouse team to streamline operations and maintain database consistency.`,
+  technologies: ["Excel", "Flo (Flipkart Logistics Tool)"],
+ },
+
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  year: "April 2024 - April 2025",
+  role: "Chairperson IEEE Student Membership",  
+  company: "",
+  description: `Led the IEEE Student Membership body, organizing technical quizzes, functions, and recreational outings to foster community engagement and professional growth. Collaborated with team members to plan events, manage logistics, and boost active student participation in IEEE activities.`,
+  technologies: ["Event Management", "Team Coordination", "Public Speaking"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Algo-Meet",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "AlgoMeet is an innovative online coding interview platform designed to provide a seamless and interactive experience for both interviewees and interviewers. Built using Next.js, the platform enables real-time coding interviews where candidates can share their screen and coding environment while their camera remains on for a more authentic interview experience.",
+    technologies: ["Next.js", "Tailwind CSS", "React", "Node.js", "CONVEX","CLERK"],
+    link: "https://algo-meet-ashen.vercel.app/",
   },
   {
-    title: "Task Management App",
+    title: "ShopEase - E-commerce Platform",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "ShopEase is a sleek e-commerce platform built with React, Node.js, and Stripe. It features product browsing, cart management, secure checkout, coupon-based discounts, and seamless Stripe integration for fast, reliable payments.",
+    technologies: ["React", "TailwindCSS", "Stripe", "Redis", "Node.js","Express"],
+    link: "https://shopease-ipll.onrender.com/",
   },
   {
-    title: "Portfolio Website",
+    title: "Konvo - Chat Application",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Konvo is a real-time chat application built with the MERN stack and Socket.io. It offers seamless one-on-one and group messaging with instant updates, user authentication, and a clean, responsive interface for smooth communication.",
+    technologies: ["React", "Express", "MongoDb", "Node.js", "Socket.io"],
+    link: "https://chat-app-mern-stack-3.onrender.com/",
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+ 
 ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 7411316147" ,
+  email: "syedzaheed2004@gmail.com",
 };
