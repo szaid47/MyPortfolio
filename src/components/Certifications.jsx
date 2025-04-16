@@ -21,7 +21,7 @@ const Certifications = () => {
           className="w-1/4"
         >
           <img
-            src="../public/certificate-1.png"
+            src="../certificate-1.png"
             alt="Certificate 1"
             className="rounded-lg shadow-lg"
           />
@@ -45,7 +45,7 @@ const Certifications = () => {
           className="w-1/4"
         >
           <img
-            src="../public/certificate-2.png"
+            src="../certificate-2.png"
             alt="Certificate 2"
             className="rounded-lg shadow-lg"
             height={800}

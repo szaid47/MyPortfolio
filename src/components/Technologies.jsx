@@ -86,7 +86,7 @@ const Technologies = () => {
         </motion.div>
 
          <motion.div variants={iconVariants(3.0)} initial="initial" animate="animate" className="p-4">
-          <img src="../public/postman.png" alt="Postman" className="w-16 h-16 rounded-4xl" />
+          <img src="../postman.png" alt="Postman" className="w-16 h-16 rounded-4xl" />
         </motion.div>
 
         <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">

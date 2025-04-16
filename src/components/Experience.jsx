@@ -57,7 +57,7 @@ const Experience = () => {
                 initial={{opacity:0, scale:0.95}}
                 transition={{duration:1}}
                 className="w-1/4">
-                    <img src="../public/flipkart.jpg" alt="Project 1" className="rounded-lg shadow-lg"/>
+                    <img src="../flipkart.jpg" alt="Project 1" className="rounded-lg shadow-lg"/>
                      <p className="mt-2 text-center text-sm text-stone-500">At Flipkart Warehouse</p>
                 </motion.div>
                 <motion.div
@@ -65,7 +65,7 @@ const Experience = () => {
                 initial={{opacity:0, scale:0.95}}
                 transition={{duration:1}}
                 className="w-1/4">
-                    <img src="../public/ieee.png" alt="Project 2" className="rounded-lg shadow-lg"/>
+                    <img src="../ieee.png" alt="Project 2" className="rounded-lg shadow-lg"/>
                      <p className="mt-2 text-center text-sm text-stone-500">IEEE Quiz</p>
                 </motion.div>
                 
