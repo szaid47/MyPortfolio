@@ -12,21 +12,23 @@ const Certifications = () => {
       >
         Certifications
       </motion.h2>
-      <div className="flex flex-wrap justify-center gap-30">
+
+      <div className="flex flex-wrap justify-center gap-10 px-4">
         {/* Certificate 1 */}
         <motion.div
           whileInView={{ opacity: 1, scale: 1.05 }}
           initial={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 1 }}
-          className="w-1/4"
+          className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
         >
           <img
             src="../certificate-1.png"
             alt="Certificate 1"
-            className="rounded-lg shadow-lg"
+            className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
           />
-          <h3 className="mt-4 text-center text-xl font-semibold">AWS Academy Cloud Foundations</h3>
-          
+          <h3 className="mt-4 text-center text-xl font-semibold">
+            AWS Academy Cloud Foundations
+          </h3>
           <a
             href="https://www.credly.com/badges/1f670f64-6f31-48f4-8ffa-28df90ed50a8/linked_in_profile"
             target="_blank"
@@ -42,17 +44,16 @@ const Certifications = () => {
           whileInView={{ opacity: 1, scale: 1.05 }}
           initial={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 1 }}
-          className="w-1/4"
+          className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
         >
           <img
             src="../certificate-2.png"
             alt="Certificate 2"
-            className="rounded-lg shadow-lg"
-            height={800}
-            width={500}
+            className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
           />
-          <h3 className="mt-4 text-center text-xl font-semibold pt-25">Meta Front-End Developer Professional Certificate</h3>
-          
+          <h3 className="mt-4 text-center text-xl font-semibold">
+            Meta Front-End Developer Professional Certificate
+          </h3>
           <a
             href="https://verify-certificate2.com"
             target="_blank"

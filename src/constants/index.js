@@ -1,11 +1,11 @@
 import { link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.webp";
+import project3 from "../assets/projects/project-3.png";      
+import project4 from "../assets/projects/detection.png";   
 
 export const HERO_CONTENT = `Hey, I’m Syed Zaheed — great to e-meet you! I’m a full stack developer and a computer science enthusiast who loves building cool and meaningful projects. I'm especially passionate about creating web apps using React and Next.js, whipping up data tools with Streamlit, and diving into CNN-based AI projects whenever I get the chance.
-Hackathons are my go-to space for learning, building, and connecting with like-minded techies. When I’m not coding, you’ll probably find me watching anime, exploring business case studies, or geeking out over the latest phone and laptop launches. Let’s connect — my socials are just above! `;
+Hackathons are my go-to space for learning, building, and connecting with like-minded techies. When I’m not coding, you’ll probably find me watching Friends or geeking out over the latest phone and laptop launches. Let’s connect — my socials are just above! `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -43,6 +43,14 @@ export const PROJECTS = [
       "AlgoMeet is an innovative online coding interview platform designed to provide a seamless and interactive experience for both interviewees and interviewers. Built using Next.js, the platform enables real-time coding interviews where candidates can share their screen and coding environment while their camera remains on for a more authentic interview experience.",
     technologies: ["Next.js", "Tailwind CSS", "React", "Node.js", "CONVEX","CLERK"],
     link: "https://algo-meet-ashen.vercel.app/",
+  },
+   {
+    title: "Ocean-view - Sea Debris detection",
+    image: project4,
+    description:
+      "An AI-powered underwater trash detection application that uses advanced computer vision to identify marine debris in images and videos. The system includes a modern React frontend and Python FastAPI backend.",
+    technologies: ["React", "Tailwind CSS", "Python", "FastAPI", "OpenCV", "TensorFlow"],
+    link: "https://github.com/szaid47/Ocean-View",
   },
   {
     title: "ShopEase - E-commerce Platform",

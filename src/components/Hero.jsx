@@ -35,8 +35,8 @@ const Hero = () => {
               src={profilePic}
               alt="Syed Zaheed"
               className="border border-stone-900 rounded-3xl"
-              width ={650}
-              height={650}
+              width ={350}
+              height={350}
               initial={{x:100, opacity:0}}
               animate={{x:0 , opacity:1}}
               transition = {{duration :1, delay:1.5}}
@@ -66,7 +66,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
             variants={childVariants}
-              href="/resume.pdf"
+              href="/final-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
