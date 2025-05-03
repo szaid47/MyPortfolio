@@ -61,34 +61,52 @@ const Experience = () => {
         </motion.h3>
 
         <div className="pt-10 flex flex-wrap justify-center gap-10 px-4">
-          {/* Photo 1 */}
-          <motion.div
-            whileInView={{ opacity: 1, scale: 1.05 }}
-            initial={{ opacity: 0, scale: 0.95 }}
-            transition={{ duration: 1 }}
-            className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center">
-            <img
-              src="../flipkart.jpg"
-              alt="Flipkart"
-              className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
-            />
-            <p className="mt-2 text-center text-sm text-stone-500">At Flipkart Warehouse</p>
-          </motion.div>
+  {/* Photo 1 */}
+  <motion.div
+    whileInView={{ opacity: 1, scale: 1.05 }}
+    initial={{ opacity: 0, scale: 0.95 }}
+    transition={{ duration: 1 }}
+    className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
+  >
+    <img
+      src="../flipkart.jpg"
+      alt="Flipkart"
+      className="rounded-3xl border border-stone-900 shadow-lg w-full max-w-xs h-64 object-cover"
+    />
+    <p className="mt-2 text-center text-sm text-stone-500">At Flipkart Warehouse</p>
+  </motion.div>
 
-          {/* Photo 2 */}
-          <motion.div
-            whileInView={{ opacity: 1, scale: 1.05 }}
-            initial={{ opacity: 0, scale: 0.95 }}
-            transition={{ duration: 1 }}
-            className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center">
-            <img
-              src="../DSC_0234.JPG"
-              alt="Hackathon"
-              className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
-            />
-            <p className="mt-2 text-center text-sm text-stone-500">Infothon Hackathon Mysuru</p>
-          </motion.div>
-        </div>
+  {/* Photo 2 */}
+  <motion.div
+    whileInView={{ opacity: 1, scale: 1.05 }}
+    initial={{ opacity: 0, scale: 0.95 }}
+    transition={{ duration: 1 }}
+    className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
+  >
+    <img
+      src="../DSC_0234.JPG"
+      alt="Hackathon"
+      className="rounded-3xl border border-stone-900 shadow-lg w-full max-w-xs h-64 object-cover"
+    />
+    <p className="mt-2 text-center text-sm text-stone-500">Infothon Hackathon Mysuru</p>
+  </motion.div>
+
+  {/* Photo 3 */}
+  <motion.div
+    whileInView={{ opacity: 1, scale: 1.05 }}
+    initial={{ opacity: 0, scale: 0.95 }}
+    transition={{ duration: 1 }}
+    className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
+  >
+    <img
+      src="../hackfest.jpg"
+      alt="Hackfest Hackathon"
+      className="rounded-3xl border border-stone-900 shadow-lg w-full max-w-xs h-64 object-cover"
+    />
+    <p className="mt-2 text-center text-sm text-stone-500">Top 15 at Hackfest NITTE</p>
+  </motion.div>
+</div>
+
       </div>
     </div>
   )
