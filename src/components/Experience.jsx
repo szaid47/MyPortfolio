@@ -57,7 +57,7 @@ const Experience = () => {
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
           className="text-center text-3xl mb-8">
-          Some Photos
+          Gallery
         </motion.h3>
 
         <div className="pt-10 flex flex-wrap justify-center gap-10 px-4">
