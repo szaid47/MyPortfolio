@@ -40,8 +40,8 @@ export const PROJECTS = [
     title: "Algo-Meet",
     image: project1,
     description:
-      "AlgoMeet is an innovative online coding interview platform designed to provide a seamless and interactive experience for both interviewees and interviewers. Built using Next.js, the platform enables real-time coding interviews where candidates can share their screen and coding environment while their camera remains on for a more authentic interview experience.",
-    technologies: ["Next.js", "Tailwind CSS", "React", "Node.js", "CONVEX","CLERK"],
+      "AlgoMeet is a surveillance-integrated platform designed to conduct real-time or scheduled coding interviews with built-in cheating detection. It monitors candidates through webcam-based head pose and gaze alignment tracking, ensuring interview integrity while maintaining a smooth user experience.",
+    technologies: ["Next.js","YOLO","OpenCV", "Tailwind CSS", "React", "CONVEX","CLERK"],
     link: "https://algo-meet-ashen.vercel.app/",
   },
    {
@@ -58,7 +58,7 @@ export const PROJECTS = [
     description:
       "ShopEase is a sleek e-commerce platform built with React, Node.js, and Stripe. It features product browsing, cart management, secure checkout, coupon-based discounts, and seamless Stripe integration for fast, reliable payments.",
     technologies: ["React", "TailwindCSS", "Stripe", "Redis", "Node.js","Express"],
-    link: "https://shopease-ipll.onrender.com/",
+    link: "https://github.com/szaid47/ShopEase",
   },
   {
     title: "Konvo - Chat Application",

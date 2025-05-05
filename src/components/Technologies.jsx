@@ -1,6 +1,6 @@
 import { easeInOut, motion } from 'framer-motion'
 import { BiLogoPostgresql } from 'react-icons/bi'
-import { DiGit, DiPython, DiRedis } from 'react-icons/di'
+import { DiDocker, DiGit, DiPython, DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiExpress, SiMongodb } from 'react-icons/si'
@@ -77,7 +77,7 @@ const Technologies = () => {
           animate="animate"
           className="p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <DiDocker className="text-7xl text-sky-700" />
         </motion.div>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-4">
