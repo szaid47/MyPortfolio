@@ -1,6 +1,6 @@
 import { easeInOut, motion } from 'framer-motion'
 import { BiLogoPostgresql } from 'react-icons/bi'
-import { DiDocker, DiGit, DiPython, DiRedis } from 'react-icons/di'
+import { DiDjango, DiDocker, DiGit, DiPython, DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiExpress, SiMongodb } from 'react-icons/si'
@@ -22,6 +22,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
+    <section className="py-20">
     <div className="pb-24">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -90,6 +91,10 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
+        <DiDjango className="text-7xl  text-green-700"  />
+        </motion.div>
+
+        <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
           <DiGit className="text-7xl text-red-700" />
         </motion.div>
 
@@ -97,12 +102,15 @@ const Technologies = () => {
           <RiTailwindCssFill className="text-7xl text-cyan-700" />
         </motion.div>
 
+        
+
         <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className="p-4">
           <SiExpress className="text-7xl text-green-700" />
         </motion.div>
 
       </div>
     </div>
+    </section>
   )
 }
 

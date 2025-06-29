@@ -35,8 +35,8 @@ const Hero = () => {
               src={profilePic}
               alt="Syed Zaheed"
               className="border border-stone-900 rounded-3xl"
-              width ={250}
-              height={250}
+              width ={400}
+              height={350}
               initial={{x:100, opacity:0}}
               animate={{x:0 , opacity:1}}
               transition = {{duration :1, delay:1.5}}
@@ -45,12 +45,12 @@ const Hero = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 ">
         < motion.div
           initial="hidden"
           animate="visible"
           variants={containerVariants}>
-          <div className="flex flex-col items-center lg:items-start mt-10 px-4 lg:pl-24">
+          <div className="flex flex-col items-center lg:items-start mt-10 px-4 lg:pl-24 ">
             <motion.h2
             variants={childVariants}
             className="pb-2 text-4xl tracking-tighter lg:text-6xl">Syed Zaheed</motion.h2>
@@ -66,10 +66,10 @@ const Hero = () => {
             </motion.p>
             <motion.a
             variants={childVariants}
-              href="/SyedZaheed-Resume.pdf"
+              href="/my-Resume-Udal.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10  "
             >
               Download Resume
             </motion.a>

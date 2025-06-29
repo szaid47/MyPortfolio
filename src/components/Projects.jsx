@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
+    <section className="py-20">
     <div className="pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -60,6 +61,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

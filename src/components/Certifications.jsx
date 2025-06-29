@@ -22,7 +22,7 @@ const Certifications = () => {
           className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
         >
           <img
-            src="../certificate-1.png"
+            src="../aws-academy-graduate-aws-academy-cloud-foundations.png"
             alt="Certificate 1"
             className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
           />
@@ -40,7 +40,29 @@ const Certifications = () => {
         </motion.div>
 
         {/* Certificate 2 */}
-        
+        <motion.div
+          whileInView={{ opacity: 1, scale: 1.05 }}
+          initial={{ opacity: 0, scale: 0.95 }}
+          transition={{ duration: 1 }}
+          className="w-full sm:w-2/3 md:w-1/3 lg:w-1/4 flex flex-col items-center"
+        >
+          <img
+            src="../github-foundations.png"
+            alt="Certificate 1"
+            className="rounded-3xl border border-stone-900 shadow-lg max-w-xs w-full object-cover"
+          />
+          <h3 className="mt-4 text-center text-xl font-semibold">
+            Github Foundations
+          </h3>
+          <a
+            href="https://www.credly.com/badges/d685792c-4d69-4fd0-99a2-eaeece32b99a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 block text-center text-blue-500"
+          >
+            Verify Certificate
+          </a>
+        </motion.div>
       </div>
     </div>
   );

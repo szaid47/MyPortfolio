@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 
 const Experience = () => {
   return (
+    <section className="py-15">
     <div className='pb-4'>
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -51,6 +52,7 @@ const Experience = () => {
       </div>
 
       {/* Photos Section */}
+      <section className="py-34">
       <div className="mt-16">
         <motion.h3
           whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +110,9 @@ const Experience = () => {
 </div>
 
       </div>
+      </section>
     </div>
+    </section>
   )
 }
 

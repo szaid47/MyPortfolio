@@ -16,14 +16,32 @@ const App = () => {
       </div>
 
       <div className='container mx-auto px-8'>
-        <Navbar/>
-        <Hero/>
-        <Technologies/>
-        <Projects/>
-        <Experience/>
-        <Certifications/>
-        <Contact/>
+      <Navbar />
+  
+      <div className="mb-24">
+      <Hero />
       </div>
+
+     <div className="mb-24">
+     <Technologies />
+     </div>
+
+     <div className="mb-24">
+     <Projects />
+     </div>
+
+    <div className="mb-24">
+    <Experience />
+    </div>
+
+    <div className="mb-24">
+    <Certifications />
+    </div>
+
+    <div className="mb-24">
+    <Contact />
+    </div>
+    </div>
     </div>
 
   )
