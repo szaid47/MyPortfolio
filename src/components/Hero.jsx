@@ -31,16 +31,14 @@ const Hero = () => {
         {/* Profile Picture */}
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
-            <motion.img
-              src={profilePic}
-              alt="Syed Zaheed"
-              className="border border-stone-900 rounded-3xl"
-              width ={400}
-              height={350}
-              initial={{x:100, opacity:0}}
-              animate={{x:0 , opacity:1}}
-              transition = {{duration :1, delay:1.5}}
-            />
+          <motion.img
+          src={profilePic}
+          alt="Syed Zaheed"
+          className="border border-stone-900 rounded-3xl w-40 sm:w-56 md:w-72 lg:w-[400px] h-auto"
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.5 }}
+          />
           </div>
         </div>
 
