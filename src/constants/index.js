@@ -1,7 +1,7 @@
 import { link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";      
+import project3 from "../assets/projects/mainPage.png";      
 import project4 from "../assets/projects/detection.png";   
 
 export const HERO_CONTENT = `Hey, I’m Syed Zaheed — great to e-meet you! I’m a full stack developer and a computer science enthusiast who loves building cool and meaningful projects. I'm especially passionate about creating web apps using React and Next.js, whipping up data tools with Streamlit, and diving into CNN-based AI projects whenever I get the chance.
@@ -53,6 +53,14 @@ export const PROJECTS = [
     link: "https://github.com/szaid47/Ocean-View",
   },
   {
+    title: "Digital MRF - Waste Management System",
+    image: project3,
+    description:
+      "Digital MRF is an intelligent waste management system built with Django. It enables tracking of waste collection, categorization, and processing, offering real-time analytics, reporting, and streamlined workflows for efficient materials recovery.",
+    technologies: ["Django", "Python", "SQLite", "JavaScript"],
+    link: "https://github.com/szaid47/rural-waste-monitor",
+  },
+  {
     title: "ShopEase - E-commerce Platform",
     image: project2,
     description:
@@ -60,14 +68,7 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCSS", "Stripe", "Redis", "Node.js","Express"],
     link: "https://github.com/szaid47/ShopEase",
   },
-  {
-    title: "Konvo - Chat Application",
-    image: project3,
-    description:
-      "Konvo is a real-time chat application built with the MERN stack and Socket.io. It offers seamless one-on-one and group messaging with instant updates, user authentication, and a clean, responsive interface for smooth communication.",
-    technologies: ["React", "Express", "MongoDb", "Node.js", "Socket.io"],
-    link: "https://chat-app-mern-stack-3.onrender.com/",
-  },
+  
  
 ];
 
